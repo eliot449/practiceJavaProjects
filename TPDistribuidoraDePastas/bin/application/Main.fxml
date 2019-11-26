@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="850.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label alignment="CENTER" layoutX="96.0" layoutY="34.0" prefHeight="50.0" prefWidth="574.0" text="—Formulario de pedido—">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="DARKEN" fill="#ededed" height="385.0" layoutX="443.0" layoutY="317.0" stroke="#b8b5b5" strokeType="INSIDE" strokeWidth="5.0" width="342.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eeeeee" height="520.0" layoutX="23.0" layoutY="316.0" stroke="#b8b5b5" strokeType="INSIDE" strokeWidth="5.0" width="393.0" />
+      <VBox alignment="CENTER" layoutX="302.0" layoutY="379.0" prefHeight="440.0" prefWidth="100.0" spacing="27.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#pedir0" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+            <Button mnemonicParsing="false" onAction="#pedir1" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+            <Button mnemonicParsing="false" onAction="#pedir2" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+            <Button mnemonicParsing="false" onAction="#pedir3" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+            <Button mnemonicParsing="false" onAction="#pedir4" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+            <Button mnemonicParsing="false" onAction="#pedir5" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="686.0" layoutY="390.0" prefHeight="300.0" prefWidth="100.0" spacing="30.0" AnchorPane.topAnchor="390.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <Button mnemonicParsing="false" onAction="#pedir6" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+            <Button mnemonicParsing="false" onAction="#pedir7" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+            <Button mnemonicParsing="false" onAction="#pedir8" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+            <Button mnemonicParsing="false" onAction="#pedir9" prefHeight="40.0" prefWidth="80.0" text="Añadir" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="154.0" layoutY="350.0" prefHeight="440.0" prefWidth="70.0" spacing="30.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="20.0" prefHeight="40.0" prefWidth="75.0" text="Precio">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="124.65$" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="150.33$" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="130.24$" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="165.55$" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="170.16$" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="172.78$" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="14.0" layoutY="350.0" prefHeight="440.0" prefWidth="140.0" spacing="30.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <Label alignment="CENTER" layoutX="15.0" layoutY="20.0" prefHeight="40.0" prefWidth="150.0" text="Producto">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Fideos" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Fideos Rellenos" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Ñoquis" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Ravioles" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Sorrentinos" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Canelones" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="224.0" layoutY="350.0" prefHeight="440.0" prefWidth="60.0" spacing="30.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="20.0" prefHeight="40.0" prefWidth="75.0" text="Cant.">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="100gr" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="100gr" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="100gr" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="100gr" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="100gr" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="3 uni." />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="550.0" layoutY="316.0" prefHeight="365.0" prefWidth="60.0" spacing="30.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="20.0" prefHeight="40.0" prefWidth="75.0" text="Precio">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="50$" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="45.98$" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="78.05$" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="76$" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="443.0" layoutY="317.0" prefHeight="364.0" prefWidth="100.0" spacing="30.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <Label alignment="CENTER" layoutX="15.0" layoutY="20.0" prefHeight="40.0" prefWidth="150.0" text="Extras">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Queso" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Pan" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Salsa" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="150.0" text="Bebida" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="610.0" layoutY="316.0" prefHeight="365.0" prefWidth="60.0" spacing="30.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="20.0" prefHeight="40.0" prefWidth="75.0" text="Cant.">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="200gr" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="2 uni." />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="200gr" />
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="75.0" text="1.5L" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER_LEFT" layoutX="65.0" layoutY="87.0" prefHeight="50.0" prefWidth="533.0" spacing="20.0">
+         <children>
+            <Label prefHeight="41.0" prefWidth="171.0" text="Nombre del cliente:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nombreText" prefHeight="31.0" prefWidth="326.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="65.0" layoutY="154.0" prefHeight="50.0" prefWidth="533.0" spacing="20.0">
+         <children>
+            <Label prefHeight="41.0" prefWidth="171.0" text="Correo electrónico:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="mailText" prefHeight="31.0" prefWidth="326.0" />
+         </children>
+      </HBox>
+      <Button layoutX="483.0" layoutY="742.0" mnemonicParsing="false" onAction="#hacerPedido" prefHeight="77.0" prefWidth="251.0" text="Realizar pedido">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="50.0" layoutX="461.0" layoutY="338.0" opacity="0.2" stroke="BLACK" strokeType="INSIDE" width="308.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="50.0" layoutX="34.0" layoutY="341.0" opacity="0.2" stroke="BLACK" strokeType="INSIDE" width="371.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cfd3d7" height="104.0" layoutX="631.0" layoutY="92.0" stroke="#b8b5b5" strokeType="INSIDE" strokeWidth="5.0" width="154.0" />
+      <Label alignment="CENTER" layoutX="665.0" layoutY="101.0" text="Nro de turno" />
+      <Label fx:id="lblTurno" alignment="CENTER" contentDisplay="CENTER" layoutX="665.0" layoutY="121.0" prefHeight="50.0" prefWidth="87.0" textAlignment="CENTER" textFill="#ee3131">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDatosPedido" alignment="CENTER" layoutX="67.0" layoutY="240.0" prefHeight="31.0" prefWidth="662.0" />
+      <Label fx:id="lblcantArticulos" alignment="CENTER" layoutX="293.0" layoutY="271.0" prefHeight="21.0" prefWidth="251.0" />
+   </children>
+</AnchorPane>

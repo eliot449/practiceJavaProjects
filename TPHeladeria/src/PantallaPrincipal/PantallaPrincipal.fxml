@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PantallaPrincipal.PantallaPrincipalController">
+   <children>
+      <Button layoutX="83.0" layoutY="86.0" mnemonicParsing="false" onAction="#irAAgregarCliente" prefHeight="39.0" prefWidth="113.0" text="Agregar Cliente" />
+      <Button layoutX="178.0" layoutY="226.0" mnemonicParsing="false" onAction="#irAVender" prefHeight="51.0" prefWidth="145.0" text="Vender">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="66.0" layoutY="21.0" prefHeight="39.0" prefWidth="354.0" text="Heladería JAVA">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="290.0" layoutY="150.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="113.0" />
+      <Button layoutX="83.0" layoutY="150.0" mnemonicParsing="false" onAction="#irAAgregarHelado" prefHeight="39.0" prefWidth="113.0" text="Agregar Helado" />
+      <Button layoutX="290.0" layoutY="86.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="113.0" />
+   </children>
+</AnchorPane>
